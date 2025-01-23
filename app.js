@@ -63,7 +63,7 @@ function sortearAmigo() {
 
         // Si no hay opciones válidas, reiniciar el sorteo
         if (posibles.length === 0) {
-            alert('No fue posible completar el sorteo, intentaremos de nuevo.');
+            
             return sortearAmigo(); // Intentar de nuevo desde el inicio
         }
 
